@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .forms .text{
+            color: #333;
+            font-size: 14px;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #009edb;
+        }
+        .container{
+            position: relative;
+            max-width: 430px;
+            width: 100%;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px black;
+        }
+        .container .forms{
+            padding: 30px;
+        }
+        .container .forms .title{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .forms .title::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            width: 30px;
+            background-color: #009edb;
+            border-radius: 20px;
+        }
+        .forms .input-field{
+            position: relative;
+            height: 50px;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .input-field input{
+            height: 100%;
+            width: 100%;
+            padding: 0 35px;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #ccc;
+            border-top: 2px solid transparent;
+        }
+        .input-field input:is(:focus, :valid){
+            border-bottom-color: #009edb;
+        }
+        .input-field i{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        .forms .button{
+            margin-top: 35px;
+            text-align: center;
+            background-color: #4070f4;
+            justify-content: center;
+            align-items: center;
+            text-decoration-line: none;
+            cursor: pointer;
+            border-radius: 5px;
+            padding-top: 10px;
+        }
+        a{
+            text-decoration-line: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .forms .button input{
+            border: none;
+            font-size: 15px;
+            font-weight: 500;
+            color: #fff;
+            letter-spacing: 1px;
+            background-color: #4070f4;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="register">
+                <span class="title">Buat Akun</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan username" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan email" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Masukkan password" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Konfirmasi password" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field button">
+                        <a href="index.html">Daftar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
