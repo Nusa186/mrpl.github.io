@@ -31,7 +31,6 @@
     color: #0000;
     margin-left: 10px;
     background-image: -webkit-linear-gradient(left, #ed1b30, #ed1b30, #ed1b30, #d59f2d, #d59f2d, #d59f2d, #d59f2d, #d59f2d, #28994a, #28994a, #28994a, #28994a, #28994a, #c31e33, #c31e33, #c31e33, #c31e33, #f13e2a, #f13e2a, #f13e2a, #f13e2a, #07acdb, #07acdb, #07acdb, #07acdb, #feb712, #feb712, #feb712, #8f1739, #8f1739, #8f1739, #1a3668, #1a3668, #057bbe, #057bbe, #ff002b, #f00);
-    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
     background-clip: text;
@@ -82,6 +81,15 @@ a{
     font-size: 40px;
     padding-left: 90px;
 }
+.title-tentang{
+    background: url(images/bg1.jpg) no-repeat;
+    margin-top: 50px;
+    font-size: 40px;
+    padding-left: 90px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
 
 .content{
     display: flex;
@@ -115,6 +123,7 @@ a{
     justify-content: center;
     align-items: center;
     padding-right: 150px;
+    list-style-type: none;
 }
 
 .li-navbar{
@@ -391,14 +400,7 @@ input[type="text"]{
     word-break: break-all;
 }
 
-#login{
-    background-color: #0184f8;
-    display: flex;
-    line-height: 25px;
-    width: 60px;
-    border-radius: 10px;
-    justify-content: center;
-}
+
 
 /* login */
 
