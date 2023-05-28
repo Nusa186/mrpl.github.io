@@ -1101,10 +1101,10 @@ table {
   }
   #keywords thead tr th {
     font-weight: bold;
-    padding: 12px 30px;
+    padding: 10px 30px;
   }
   #keywords thead tr th span {
-    padding-right: 20px;
+    padding-right: 10px;
     background-repeat: no-repeat;
     background-position: 100% 100%;
   }
