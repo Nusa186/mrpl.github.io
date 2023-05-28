@@ -74,27 +74,15 @@ a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
-.title{
-    background: url(images/bg1.jpg) no-repeat;
-    margin-top: 50px;
-    font-size: 40px;
-    padding-left: 90px;
-}
-.title-tentang{
-    background: url(images/bg1.jpg) no-repeat;
-    margin-top: 50px;
-    font-size: 40px;
-    padding-left: 90px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;
-}
 .dropdown {
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
-  
+  .dropdown img:hover{
+    background: #a9a9a9;
+    border-radius: 20px;
+  }
   .dropdown-content {
     display: none;
     position: absolute;
@@ -116,6 +104,22 @@ a{
   border-radius: 5px;}
   
   .dropdown:hover .dropdown-content {display: block;}
+.title{
+    background: url(images/bg1.jpg) no-repeat;
+    margin-top: 50px;
+    font-size: 40px;
+    padding-left: 90px;
+}
+.title-tentang{
+    background: url(images/bg1.jpg) no-repeat;
+    margin-top: 50px;
+    font-size: 40px;
+    padding-left: 90px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .content{
     display: flex;
     background: url(images/bg1.jpg) no-repeat;
@@ -1048,3 +1052,77 @@ input[type="text"]{
     border-radius: 5px; 
     padding: 20px;
 }
+
+/* data tabel */
+table,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #505050dd;
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+#map2{
+    width: 500px; 
+    height: 400px;
+    float: left;
+    margin-top: 95px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  .h1 {
+    font-family: "Amarante", Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+#wrapper {
+    display: block;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 17px;
+  }
+  
+  #keywords {
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  #keywords thead {
+    cursor: pointer;
+    background: #c9dff0;
+  }
+  #keywords thead tr th {
+    font-weight: bold;
+    padding: 12px 30px;
+  }
+  #keywords thead tr th span {
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  #keywords thead tr th.headerSortUp,
+  #keywords thead tr th.headerSortDown {
+    background: #acc8dd;
+  }
+  
+  
+  #keywords tbody tr {
+    color: #555;
+  }
+  #keywords tbody tr td {
+    text-align: center;
+    padding: 10px 7px;
+    border-bottom: 3px;
+  }
+  #keywords tbody tr td.lalign {
+    text-align: left;
+  }
