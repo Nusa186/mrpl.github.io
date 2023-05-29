@@ -65,7 +65,7 @@
 }
 
 #navbar a:hover{
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: white;
     font-weight: bold;
 }
